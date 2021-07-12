@@ -1,0 +1,57 @@
+
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 100ms cubic-bezier();
+}
+
+.fade-exit{
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 100ms cubic-bezier;
+}
+
+.login {
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+/* footer {
+    margin-top: 0.5em!important;
+    text-align: center;
+    color: white;
+    background-color: #535353; 
+}
+  
+footer  p {
+    margin-top: 0.8em!important;
+} */
+
+.footer{
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.item {
+    border-radius: 8px;
+    background: #ffffff;
+    /* box-shadow:  10px 10px 20px #f6f6f6,
+                 -10px -10px 20px #f6f6f6; */
+    margin-top: .5em;
+}
